@@ -1,0 +1,33 @@
+body {
+  background-image: url("back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100vh;
+}
+
+.count-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.unit {
+  margin: 0 3rem;
+  line-height: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unit p {
+  font-size: 6rem;
+  font-weight: bolder;
+  margin: 0 0 2rem 0;
+}
+
+.unit span {
+  font-size: 2rem;
+}
